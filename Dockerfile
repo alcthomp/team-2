@@ -32,7 +32,7 @@ CMD     ["/usr/sbin/httpd","-D","FOREGROUND"]
 # 5)
 # Then copy file index.html from the host to 
 # /var/www/html/ on the container.
-COPY    index.html /var/www/html/
+RUN curl https://raw.githubusercontent.com/subsari/team-2/dev/index.html --output /var/www/html/index.html
 
 # 6)
 # If everything went fine then docker
