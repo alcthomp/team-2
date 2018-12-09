@@ -3,3 +3,4 @@ Testing - configuration #2
 Testing - configuration #3
 Testing - configuration #4
 Testing - configuration #5
+Testing - configuration #6
